@@ -1013,267 +1013,267 @@ EXPORTS
 
 
 
-    memchr @31 PRIVATE
-    wcscat @58 PRIVATE
-    wcscat_s @2628 PRIVATE
-    wcschr @59 PRIVATE
-    wcscmp @60 PRIVATE
-    wcscpy @61 PRIVATE
-    wcscpy_s @2629 PRIVATE
-    wcscspn @62 PRIVATE
-    wcslen @63 PRIVATE
-    wcsnlen @2630 PRIVATE
-    wcsncat @64 PRIVATE
-    wcsncat_s @2631 PRIVATE
-    wcsncmp @65 PRIVATE
-    wcsncpy @66 PRIVATE
-    wcsncpy_s @2632 PRIVATE
-    _wcsnset @67 PRIVATE
-    _wcsnset_s @2633 PRIVATE
-    wcspbrk @68 PRIVATE
-    wcsrchr @69 PRIVATE
-    _wcsrev @70 PRIVATE
-    _wcsset @71 PRIVATE
-    _wcsset_s @2634 PRIVATE
-    wcsspn @72 PRIVATE
-    wcsstr @73 PRIVATE
-    _wcsdup @74 PRIVATE
-    wcstombs @75 PRIVATE
-    wcstombs_s @2635 PRIVATE
-    mbstowcs @76 PRIVATE
-    mbstowcs_s @2636 PRIVATE
-    wcstok @77 PRIVATE
-    wcstok_s @2637 PRIVATE
-    _wtoi @3026 PRIVATE
-    _wtol @78 PRIVATE
-    _atoi64 @1418 PRIVATE
-    _wtoi64 @79 PRIVATE
-    strtod @1403 PRIVATE
-    strtol @1404 PRIVATE
-    strtoul @1405 PRIVATE
-    _strtoi64 @3025 PRIVATE
-    _strtoui64 @3022 PRIVATE
+    memchr @31
+    wcscat @58
+    wcscat_s @2628
+    wcschr @59
+    wcscmp @60
+    wcscpy @61
+    wcscpy_s @2629
+    wcscspn @62
+    wcslen @63
+    wcsnlen @2630
+    wcsncat @64
+    wcsncat_s @2631
+    wcsncmp @65
+    wcsncpy @66
+    wcsncpy_s @2632
+    _wcsnset @67
+    _wcsnset_s @2633
+    wcspbrk @68
+    wcsrchr @69
+    _wcsrev @70
+    _wcsset @71
+    _wcsset_s @2634
+    wcsspn @72
+    wcsstr @73
+    _wcsdup @74
+    wcstombs @75
+    wcstombs_s @2635
+    mbstowcs @76
+    mbstowcs_s @2636
+    wcstok @77
+    wcstok_s @2637
+    _wtoi @3026
+    _wtol @78
+    _atoi64 @1418
+    _wtoi64 @79
+    strtod @1403
+    strtol @1404
+    strtoul @1405
+    _strtoi64 @3025
+    _strtoui64 @3022
 
-    strpbrk @1406 PRIVATE
-    strrchr @1407 PRIVATE
-    strspn @1408 PRIVATE
-    _strdup @1409 PRIVATE
-    _strnset @1412 PRIVATE
-    _strnset_s @2638 PRIVATE
-    _strrev @1413 PRIVATE
-    _strset @1414 PRIVATE
-    _strset_s @2639 PRIVATE
-    _strlwr @1415 PRIVATE
-    _strlwr_s @2640 PRIVATE
-    _strupr @1416 PRIVATE
-    _strupr_s @2641 PRIVATE
+    strpbrk @1406
+    strrchr @1407
+    strspn @1408
+    _strdup @1409
+    _strnset @1412
+    _strnset_s @2638
+    _strrev @1413
+    _strset @1414
+    _strset_s @2639
+    _strlwr @1415
+    _strlwr_s @2640
+    _strupr @1416
+    _strupr_s @2641
 
-    _stricmp @1410 PRIVATE
-    _strnicmp @1411 PRIVATE
-
-
+    _stricmp @1410
+    _strnicmp @1411
 
 
 
 
 
 
-    __C_specific_handler @87 PRIVATE
+
+
+    __C_specific_handler @87
 
 
 ; @CESYSGEN IF COREDLL_CORELOC || COREDLL_LOCUSA || COREDLL_LOCMINI
-    _isctype @1417 PRIVATE
-    iswctype @193 PRIVATE
-    towlower @194 PRIVATE
-    towupper @195 PRIVATE
-    _wcsnicmp @229 PRIVATE
-    _wcsicmp @230 PRIVATE
-    _wcslwr @231 PRIVATE
-    _wcslwr_s @2642 PRIVATE
+    _isctype @1417
+    iswctype @193
+    towlower @194
+    towupper @195
+    _wcsnicmp @229
+    _wcsicmp @230
+    _wcslwr @231
+    _wcslwr_s @2642
 ; @CESYSGEN ENDIF
 
 ; @CESYSGEN IF COREDLL_CORELOC || COREDLL_LOCUSA
-    _wcsupr @232 PRIVATE
-    _wcsupr_s @2643 PRIVATE
+    _wcsupr @232
+    _wcsupr_s @2643
 ; @CESYSGEN ENDIF
 
 ; @CESYSGEN IF COREDLL_CORECRT
 
 ; @CESYSGEN IF COREDLL_FULL_CRT
-    abs @988 PRIVATE
-    acos @989 PRIVATE
-    asin @990 PRIVATE
-    atan @991 PRIVATE
-    atan2 @992 PRIVATE
+    abs @988
+    acos @989
+    asin @990
+    atan @991
+    atan2 @992
 ; @CESYSGEN ENDIF
 
-    atoi @993 PRIVATE
-    atol @994 PRIVATE
+    atoi @993
+    atol @994
 
 ; @CESYSGEN IF COREDLL_FULL_CRT
-    atof @995 PRIVATE
-    _wtof @3027 PRIVATE
-    _atodbl @996 PRIVATE
-    _atoflt @997 PRIVATE
-    bsearch @2870 PRIVATE
-    bsearch_s @2871 PRIVATE
-    _cabs @998 PRIVATE
-    ceil @999 PRIVATE
-    _chgsign @1000 PRIVATE
-    _clearfp @1001 PRIVATE
-    _controlfp @1002 PRIVATE
-    _controlfp_s @2644 PRIVATE
-    _copysign @1003 PRIVATE
-    cos @1004 PRIVATE
-    cosh @1005 PRIVATE
-    difftime @1006 PRIVATE
-    div @1007 PRIVATE
-    _ecvt @1008 PRIVATE
-    _ecvt_s @2645 PRIVATE
-    exp @1009 PRIVATE
-    fabs @1010 PRIVATE
-    _fcvt @1011 PRIVATE
-    _fcvt_s @2646 PRIVATE
-    _finite @1012 PRIVATE
-    floor @1013 PRIVATE
-    fmod @1014 PRIVATE
-    _fpclass @1015 PRIVATE
-    _fpieee_flt @1016 PRIVATE
-    _fpreset @1017 PRIVATE
+    atof @995
+    _wtof @3027
+    _atodbl @996
+    _atoflt @997
+    bsearch @2870
+    bsearch_s @2871
+    _cabs @998
+    ceil @999
+    _chgsign @1000
+    _clearfp @1001
+    _controlfp @1002
+    _controlfp_s @2644
+    _copysign @1003
+    cos @1004
+    cosh @1005
+    difftime @1006
+    div @1007
+    _ecvt @1008
+    _ecvt_s @2645
+    exp @1009
+    fabs @1010
+    _fcvt @1011
+    _fcvt_s @2646
+    _finite @1012
+    floor @1013
+    fmod @1014
+    _fpclass @1015
+    _fpieee_flt @1016
+    _fpreset @1017
 ; @CESYSGEN ENDIF
 
-    free @1018 PRIVATE
-    _itow @1026 PRIVATE
-    _itow_s @2647 PRIVATE
+    free @1018
+    _itow @1026
+    _itow_s @2647
 
 ; @CESYSGEN IF COREDLL_FULL_CRT
-    frexp @1019 PRIVATE
-    _frnd @1020 PRIVATE
-    _fsqrt @1021 PRIVATE
-    _gcvt @1022 PRIVATE
-    _gcvt_s @2648 PRIVATE
-    _hypot @1023 PRIVATE
-    _isnan @1024 PRIVATE
-    _itoa @1025 PRIVATE
-    _itoa_s @2649 PRIVATE
-    _j0 @1027 PRIVATE
-    _j1 @1028 PRIVATE
-    _jn @1029 PRIVATE
-    labs @1030 PRIVATE
-    ldexp @1031 PRIVATE
-    ldiv @1032 PRIVATE
-    log @1033 PRIVATE
-    log10 @1034 PRIVATE
-    _logb @1035 PRIVATE
-    longjmp @1036 PRIVATE
-    _lrotl @1037 PRIVATE
-    _lrotr @1038 PRIVATE
-    _ltoa @1039 PRIVATE
-    _ltoa_s @2650 PRIVATE
-    _ltow @1040 PRIVATE
-    _ltow_s @2651 PRIVATE
+    frexp @1019
+    _frnd @1020
+    _fsqrt @1021
+    _gcvt @1022
+    _gcvt_s @2648
+    _hypot @1023
+    _isnan @1024
+    _itoa @1025
+    _itoa_s @2649
+    _j0 @1027
+    _j1 @1028
+    _jn @1029
+    labs @1030
+    ldexp @1031
+    ldiv @1032
+    log @1033
+    log10 @1034
+    _logb @1035
+    longjmp @1036
+    _lrotl @1037
+    _lrotr @1038
+    _ltoa @1039
+    _ltoa_s @2650
+    _ltow @1040
+    _ltow_s @2651
 ; @CESYSGEN ENDIF
 
-    malloc @1041 PRIVATE
-    calloc @1346 PRIVATE
-    _msize @1049 PRIVATE
-    _memccpy @1042 PRIVATE
-    memcmp @1043 PRIVATE
-    memcpy @1044 PRIVATE
-    memcpy_s @2652 PRIVATE
-    _memicmp @1045 PRIVATE
-    memmove @1046 PRIVATE
-    memmove_s @2653 PRIVATE
-    memset @1047 PRIVATE
+    malloc @1041
+    calloc @1346
+    _msize @1049
+    _memccpy @1042
+    memcmp @1043
+    memcpy @1044
+    memcpy_s @2652
+    _memicmp @1045
+    memmove @1046
+    memmove_s @2653
+    memset @1047
 
 ; @CESYSGEN IF COREDLL_FULL_CRT
-    modf @1048 PRIVATE
-    _nextafter @1050 PRIVATE
-    pow @1051 PRIVATE
-    qsort @1052 PRIVATE
-    qsort_s @2654 PRIVATE
+    modf @1048
+    _nextafter @1050
+    pow @1051
+    qsort @1052
+    qsort_s @2654
 ; @CESYSGEN ENDIF
 
-    rand @1053 PRIVATE
+    rand @1053
 ; @CESYSGEN IF CE_MODULES_FILESYS
-    rand_s @2655 PRIVATE
+    rand_s @2655
 ; @CESYSGEN ENDIF
-    realloc @1054 PRIVATE
-    _recalloc @2656 PRIVATE
+    realloc @1054
+    _recalloc @2656
 
 ; @CESYSGEN IF COREDLL_FULL_CRT
-    _rotl @1055 PRIVATE
-    _rotr @1056 PRIVATE
-    _scalb @1057 PRIVATE
-    sin @1058 PRIVATE
-    sinh @1059 PRIVATE
-    sqrt @1060 PRIVATE
+    _rotl @1055
+    _rotr @1056
+    _scalb @1057
+    sin @1058
+    sinh @1059
+    sqrt @1060
 ; @CESYSGEN ENDIF
 
-    srand @1061 PRIVATE
+    srand @1061
 
 ; @CESYSGEN IF COREDLL_FULL_CRT
-    _statusfp @1062 PRIVATE
+    _statusfp @1062
 ; @CESYSGEN ENDIF
 
-    strcat @1063 PRIVATE
-    strcat_s @2657 PRIVATE
-    strchr @1064 PRIVATE
-    strcmp @1065 PRIVATE
-    strcpy @1066 PRIVATE
-    strcpy_s @2658 PRIVATE
-    strcspn @1067 PRIVATE
-    strlen @1068 PRIVATE
-    strnlen @2659 PRIVATE
-    strncat @1069 PRIVATE
-    strncat_s @2660 PRIVATE
-    strncmp @1070 PRIVATE
-    strncpy @1071 PRIVATE
-    strncpy_s @2661 PRIVATE
-    strstr @1072 PRIVATE
-    strtok @1073 PRIVATE
-    strtok_s @2662 PRIVATE
-    _swab @1074 PRIVATE
+    strcat @1063
+    strcat_s @2657
+    strchr @1064
+    strcmp @1065
+    strcpy @1066
+    strcpy_s @2658
+    strcspn @1067
+    strlen @1068
+    strnlen @2659
+    strncat @1069
+    strncat_s @2660
+    strncmp @1070
+    strncpy @1071
+    strncpy_s @2661
+    strstr @1072
+    strtok @1073
+    strtok_s @2662
+    _swab @1074
 
 ; @CESYSGEN IF COREDLL_FULL_CRT
-    tan @1075 PRIVATE
-    tanh @1076 PRIVATE
-    _ultoa @1079 PRIVATE
-    _ultoa_s @2663 PRIVATE
-    _ultow @1080 PRIVATE
-    _ultow_s @2664 PRIVATE
+    tan @1075
+    tanh @1076
+    _ultoa @1079
+    _ultoa_s @2663
+    _ultow @1080
+    _ultow_s @2664
 ; @CESYSGEN ENDIF
 
-    wcstod @1081 PRIVATE
-    wcstol @1082 PRIVATE
-    _HUGE @1181 PRIVATE
+    wcstod @1081
+    wcstol @1082
+    _HUGE @1181
 
 ; @CESYSGEN IF COREDLL_FULL_CRT
-    wcstoul @1083 PRIVATE
-    _wcstoi64 @3023 PRIVATE
-    _wcstoui64 @3024 PRIVATE
-    _y0 @1084 PRIVATE
-    _y1 @1085 PRIVATE
-    _yn @1086 PRIVATE
-    _ld12tod @1087 PRIVATE
-    _ld12tof @1088 PRIVATE
-    __strgtold12 @1089 PRIVATE
+    wcstoul @1083
+    _wcstoi64 @3023
+    _wcstoui64 @3024
+    _y0 @1084
+    _y1 @1085
+    _yn @1086
+    _ld12tod @1087
+    _ld12tof @1088
+    __strgtold12 @1089
 ; @CESYSGEN ENDIF
 
-    tolower @1090 PRIVATE
-    toupper @1091 PRIVATE
+    tolower @1090
+    toupper @1091
 
-    _purecall @1092 PRIVATE
+    _purecall @1092
 
-    _fltused @1093 PRIVATE
-    ??2@YAPAXI@Z @1095 PRIVATE
-    ??3@YAXPAX@Z @1094 PRIVATE
-    ??_U@YAPAXI@Z @1456 PRIVATE
-    ??_V@YAXPAX@Z @1457 PRIVATE
-    ??2@YAPAXIABUnothrow_t@std@@@Z @1646 PRIVATE
-    ??3@YAXPAXABUnothrow_t@std@@@Z @1662 PRIVATE
-    ??_U@YAPAXIABUnothrow_t@std@@@Z @1661 PRIVATE
-    ??_V@YAXPAXABUnothrow_t@std@@@Z @1663 PRIVATE
+    _fltused @1093
+    ??2@YAPAXI@Z @1095
+    ??3@YAXPAX@Z @1094
+    ??_U@YAPAXI@Z @1456
+    ??_V@YAXPAX@Z @1457
+    ??2@YAPAXIABUnothrow_t@std@@@Z @1646
+    ??3@YAXPAXABUnothrow_t@std@@@Z @1662
+    ??_U@YAPAXIABUnothrow_t@std@@@Z @1661
+    ??_V@YAXPAXABUnothrow_t@std@@@Z @1663
 
 
 
@@ -1476,28 +1476,28 @@ EXPORTS
 
 
 
-    _setjmp @2000 PRIVATE
-    _RtlCheckStack @2001 PRIVATE
-    __ll_rshift @2002 PRIVATE
-    __ll_lshift @2003 PRIVATE
-    __ll_mul @2004 PRIVATE
-    __ll_div @2005 PRIVATE
-    __ll_rem @2006 PRIVATE
-    __ll_bit_extract @2007 PRIVATE
-    __ll_bit_insert @2008 PRIVATE
-    __ll_to_f @2009 PRIVATE
-    __ll_to_d @2010 PRIVATE
-    __ull_rshift @2011 PRIVATE
-    __ull_div @2012 PRIVATE
-    __ull_rem @2013 PRIVATE
-    __ull_bit_extract @2014 PRIVATE
-    __ull_bit_insert @2015 PRIVATE
-    __ull_to_f @2016 PRIVATE
-    __ull_to_d @2017 PRIVATE
-    __f_to_ll @2018 PRIVATE
-    __d_to_ll @2019 PRIVATE
-    __f_to_ull @2020 PRIVATE
-    __d_to_ull @2021 PRIVATE
+    _setjmp @2000
+    _RtlCheckStack @2001
+    __ll_rshift @2002
+    __ll_lshift @2003
+    __ll_mul @2004
+    __ll_div @2005
+    __ll_rem @2006
+    __ll_bit_extract @2007
+    __ll_bit_insert @2008
+    __ll_to_f @2009
+    __ll_to_d @2010
+    __ull_rshift @2011
+    __ull_div @2012
+    __ull_rem @2013
+    __ull_bit_extract @2014
+    __ull_bit_insert @2015
+    __ull_to_f @2016
+    __ull_to_d @2017
+    __f_to_ll @2018
+    __d_to_ll @2019
+    __f_to_ull @2020
+    __d_to_ull @2021
 
 
 
@@ -1593,153 +1593,153 @@ EXPORTS
 
     ; since wsprintfW and wvsprintfW (which are always present)
     ; redirect to swprintf/vswprintf. _snwprintf/_vsnwprintf come for free with these two
-    swprintf @1097 PRIVATE
-    swprintf_s @2665 PRIVATE
-    vswprintf @1099 PRIVATE
-    vswprintf_s @2666 PRIVATE
-    _scwprintf @2800 PRIVATE 
-    _snwprintf @1096 PRIVATE
-    _snwprintf_s @2667 PRIVATE
-    _vscwprintf @2801 PRIVATE
-    _vsnwprintf @1132 PRIVATE
-    _vsnwprintf_s @2668 PRIVATE
+    swprintf @1097
+    swprintf_s @2665
+    vswprintf @1099
+    vswprintf_s @2666
+    _scwprintf @2800 
+    _snwprintf @1096
+    _snwprintf_s @2667
+    _vscwprintf @2801
+    _vsnwprintf @1132
+    _vsnwprintf_s @2668
 
-    _set_printf_count_output @2872 PRIVATE
-    _get_printf_count_output @2873 PRIVATE
+    _set_printf_count_output @2872
+    _get_printf_count_output @2873
 
 ; @CESYSGEN IF COREDLL_CORESTRA
     ; ANSI String formatting functions
-    sscanf @653 PRIVATE
-    sscanf_s @2669 PRIVATE
-    sprintf @719 PRIVATE
-    sprintf_s @2670 PRIVATE
-    vsprintf @1146 PRIVATE
-    vsprintf_s @2671 PRIVATE
-    _scprintf @2802 PRIVATE
-    _snprintf @729 PRIVATE
-    _snprintf_s @2672 PRIVATE
-    _vscprintf @2803 PRIVATE
-    _vsnprintf @1147 PRIVATE
-    _vsnprintf_s @2673 PRIVATE
+    sscanf @653
+    sscanf_s @2669
+    sprintf @719
+    sprintf_s @2670
+    vsprintf @1146
+    vsprintf_s @2671
+    _scprintf @2802
+    _snprintf @729
+    _snprintf_s @2672
+    _vscprintf @2803
+    _vsnprintf @1147
+    _vsnprintf_s @2673
 ; @CESYSGEN ENDIF
 
 ; @CESYSGEN IF COREDLL_CORESIOA
     ; ANSI Stdin/Out functions
-    scanf @1101 PRIVATE
-    scanf_s @2674 PRIVATE
-    printf @1102 PRIVATE
-    printf_s @2675 PRIVATE
-    vprintf @1103 PRIVATE
-    vprintf_s @2676 PRIVATE
-    getchar @1104 PRIVATE
-    putchar @1105 PRIVATE
-    gets @1106 PRIVATE
-    gets_s @2677 PRIVATE
-    puts @1107 PRIVATE
+    scanf @1101
+    scanf_s @2674
+    printf @1102
+    printf_s @2675
+    vprintf @1103
+    vprintf_s @2676
+    getchar @1104
+    putchar @1105
+    gets @1106
+    gets_s @2677
+    puts @1107
 
     ; ANSI functions reqd by BOTH Stdin/out and general buffered file handling
-    fgetc @1108 PRIVATE
-    fgets @1109 PRIVATE
-    fputc @1110 PRIVATE
-    fputs @1111 PRIVATE
-    ungetc @1112 PRIVATE
+    fgetc @1108
+    fgets @1109
+    fputc @1110
+    fputs @1111
+    ungetc @1112
 
     ; ANSI functions for general buffered file handling (NOT reqd for just stdin/out)
-    fopen @1113 PRIVATE
-    fopen_s @2678 PRIVATE
-    fscanf @1114 PRIVATE
-    fscanf_s @2679 PRIVATE
-    fprintf @1115 PRIVATE
-    fprintf_s @2680 PRIVATE
-    vfprintf @1116 PRIVATE
-    vfprintf_s @2681 PRIVATE
+    fopen @1113
+    fopen_s @2678
+    fscanf @1114
+    fscanf_s @2679
+    fprintf @1115
+    fprintf_s @2680
+    vfprintf @1116
+    vfprintf_s @2681
 ; @CESYSGEN ENDIF
 
 ; @CESYSGEN IF COREDLL_CORESIOA || COREDLL_CORESIOW
     ; functions for general buffered file handling reqd by BOTH ANSI and Wide
-    _InitStdioLib @1151 PRIVATE
-    _getstdfilex @1100 PRIVATE
-    _wfdopen @1117 PRIVATE
-    _wfreopen @1201 PRIVATE
-    _wfreopen_s @2682 PRIVATE
-    fclose @1118 PRIVATE
-    _fcloseall @1119 PRIVATE
-    fread @1120 PRIVATE
-    fread_s @2683 PRIVATE
-    fwrite @1121 PRIVATE
-    fflush @1122 PRIVATE
-    _flushall @1123 PRIVATE
-    _fileno @1124 PRIVATE
-    feof @1125 PRIVATE
-    ferror @1126 PRIVATE
-    clearerr @1127 PRIVATE
-    clearerr_s @2684 PRIVATE
-    fgetpos @1128 PRIVATE
-    fsetpos @1129 PRIVATE
-    fseek @1130 PRIVATE
-    ftell @1131 PRIVATE
-    _setmode @1187 PRIVATE
-    setvbuf @1608 PRIVATE
+    _InitStdioLib @1151
+    _getstdfilex @1100
+    _wfdopen @1117
+    _wfreopen @1201
+    _wfreopen_s @2682
+    fclose @1118
+    _fcloseall @1119
+    fread @1120
+    fread_s @2683
+    fwrite @1121
+    fflush @1122
+    _flushall @1123
+    _fileno @1124
+    feof @1125
+    ferror @1126
+    clearerr @1127
+    clearerr_s @2684
+    fgetpos @1128
+    fsetpos @1129
+    fseek @1130
+    ftell @1131
+    _setmode @1187
+    setvbuf @1608
 ; @CESYSGEN ENDIF
 
 ; @CESYSGEN IF COREDLL_CORESIOW
     ; WIDE Stdin/Out functions
-    swscanf @1098 PRIVATE
-    swscanf_s @2685 PRIVATE
-    wscanf @1133 PRIVATE
-    wscanf_s @2686 PRIVATE
-    wprintf @1134 PRIVATE
-    wprintf_s @2687 PRIVATE
-    vwprintf @1135 PRIVATE
-    vwprintf_s @2688 PRIVATE
-    getwchar @1136 PRIVATE
-    putwchar @1137 PRIVATE
-    _getws @1138 PRIVATE
-    _getws_s @2689 PRIVATE
-    _putws @1139 PRIVATE
+    swscanf @1098
+    swscanf_s @2685
+    wscanf @1133
+    wscanf_s @2686
+    wprintf @1134
+    wprintf_s @2687
+    vwprintf @1135
+    vwprintf_s @2688
+    getwchar @1136
+    putwchar @1137
+    _getws @1138
+    _getws_s @2689
+    _putws @1139
 
     ; WIDE functions reqd for BOTH Stdin/out and general buffered file handling
-    fgetwc @1140 PRIVATE
-    fputwc @1141 PRIVATE
-    ungetwc @1142 PRIVATE
-    fgetws @1143 PRIVATE
-    fputws @1144 PRIVATE
+    fgetwc @1140
+    fputwc @1141
+    ungetwc @1142
+    fgetws @1143
+    fputws @1144
 
     ; WIDE functions for general buffered file handling
-    _wfopen @1145 PRIVATE
-    _wfopen_s @2690 PRIVATE
-    fwscanf @735 PRIVATE
-    fwscanf_s @2691 PRIVATE
-    fwprintf @867 PRIVATE
-    fwprintf_s @2692 PRIVATE
-    vfwprintf @721 PRIVATE
-    vfwprintf_s @2693 PRIVATE
+    _wfopen @1145
+    _wfopen_s @2690
+    fwscanf @735
+    fwscanf_s @2691
+    fwprintf @867
+    fwprintf_s @2692
+    vfwprintf @721
+    vfwprintf_s @2693
 ; @CESYSGEN ENDIF
 
 ; @CESYSGEN IF COREDLL_CRT_CPP_EH_AND_RTTI
     ; C++ Exception Handling functions
-    __CxxFrameHandler @1550 PRIVATE
-    __CxxFrameHandler3 @2512 PRIVATE
+    __CxxFrameHandler @1550
+    __CxxFrameHandler3 @2512
 
 
 
-    __CxxThrowException @1551 PRIVATE
+    __CxxThrowException @1551
 
-    ?set_terminate@std@@YAP6AXXZP6AXXZ@Z @1552 PRIVATE
-    ?set_unexpected@std@@YAP6AXXZP6AXXZ@Z @1553 PRIVATE
-    ?__set_inconsistency@@YAP6AXXZP6AXXZ@Z @1555 PRIVATE
-    ?terminate@std@@YAXXZ @1556 PRIVATE
-    ?unexpected@std@@YAXXZ @1557 PRIVATE
-    ?_inconsistency@@YAXXZ @1558 PRIVATE
-    ?_Xlen@std@@YAXXZ @1658 PRIVATE
-    ?_Xran@std@@YAXXZ @1659 PRIVATE
-    ?_Nomemory@std@@YAXXZ @1660 PRIVATE
-    ?uncaught_exception@std@@YA_NXZ @1967 PRIVATE
+    ?set_terminate@std@@YAP6AXXZP6AXXZ@Z @1552
+    ?set_unexpected@std@@YAP6AXXZP6AXXZ@Z @1553
+    ?__set_inconsistency@@YAP6AXXZP6AXXZ@Z @1555
+    ?terminate@std@@YAXXZ @1556
+    ?unexpected@std@@YAXXZ @1557
+    ?_inconsistency@@YAXXZ @1558
+    ?_Xlen@std@@YAXXZ @1658
+    ?_Xran@std@@YAXXZ @1659
+    ?_Nomemory@std@@YAXXZ @1660
+    ?uncaught_exception@std@@YA_NXZ @1967
 
     ; RTTI functions - x86 compiler uses __thiscall, RISC uses __cdecl
-    __RTCastToVoid @1559 PRIVATE
-    __RTtypeid @1560 PRIVATE
-    __RTDynamicCast @1561 PRIVATE
+    __RTCastToVoid @1559
+    __RTtypeid @1560
+    __RTDynamicCast @1561
 
 
 
@@ -1763,87 +1763,87 @@ EXPORTS
 
 
 
-    ??1type_info@@UAA@XZ @1562 PRIVATE
-    ??8type_info@@QBAHABV0@@Z @1563 PRIVATE
-    ??9type_info@@QBAHABV0@@Z @1564 PRIVATE
-    ?before@type_info@@QBAHABV1@@Z @1565 PRIVATE
-    ?name@type_info@@QBAPBDXZ @1566 PRIVATE
-    ?raw_name@type_info@@QBAPBDXZ @1567 PRIVATE
-    ??0type_info@@AAA@ABV0@@Z @1568 PRIVATE
-    ??4type_info@@AAAAAV0@ABV0@@Z @1569 PRIVATE
-    ??0exception@std@@QAA@XZ @1570 PRIVATE
-    ??0exception@std@@QAA@PBD@Z @1571 PRIVATE
-    ??0exception@std@@QAA@ABV01@@Z @1572 PRIVATE
-    ??4exception@std@@QAAAAV01@ABV01@@Z @1573 PRIVATE
-    ??1exception@std@@UAA@XZ @1574 PRIVATE
-    ?what@exception@std@@UBAPBDXZ @1575 PRIVATE
-    ??_L@YAXPAXIHP6AX0@Z1@Z @1576 PRIVATE
-    ??_N@YAXPAXIHP6AX0@Z1@Z @1577 PRIVATE
-    ??_M@YAXPAXIHP6AX0@Z@Z @1578 PRIVATE
-    ??__C@YAXPAX0IHP6AX00@ZP6AX0@Z@Z @2694 PRIVATE
-    ??__D@YAXPAX0IHP6AX00@ZP6AX0@Z@Z @2695 PRIVATE
-    ??_7exception@std@@6B@ @1579 PRIVATE
-    ??_7type_info@@6B@ @1580 PRIVATE
+    ??1type_info@@UAA@XZ @1562
+    ??8type_info@@QBAHABV0@@Z @1563
+    ??9type_info@@QBAHABV0@@Z @1564
+    ?before@type_info@@QBAHABV1@@Z @1565
+    ?name@type_info@@QBAPBDXZ @1566
+    ?raw_name@type_info@@QBAPBDXZ @1567
+    ??0type_info@@AAA@ABV0@@Z @1568
+    ??4type_info@@AAAAAV0@ABV0@@Z @1569
+    ??0exception@std@@QAA@XZ @1570
+    ??0exception@std@@QAA@PBD@Z @1571
+    ??0exception@std@@QAA@ABV01@@Z @1572
+    ??4exception@std@@QAAAAV01@ABV01@@Z @1573
+    ??1exception@std@@UAA@XZ @1574
+    ?what@exception@std@@UBAPBDXZ @1575
+    ??_L@YAXPAXIHP6AX0@Z1@Z @1576
+    ??_N@YAXPAXIHP6AX0@Z1@Z @1577
+    ??_M@YAXPAXIHP6AX0@Z@Z @1578
+    ??__C@YAXPAX0IHP6AX00@ZP6AX0@Z@Z @2694
+    ??__D@YAXPAX0IHP6AX00@ZP6AX0@Z@Z @2695
+    ??_7exception@std@@6B@ @1579
+    ??_7type_info@@6B@ @1580
 
 
 ; @CESYSGEN ENDIF COREDLL_CRT_CPP_EH_AND_RTTI
 
-    ?_set_new_mode@@YAHH@Z @1648 PRIVATE
-    ?_query_new_mode@@YAHXZ @1649 PRIVATE
-    ?_set_new_handler@@YAP6AHI@ZP6AHI@Z@Z @1650 PRIVATE
-    ?_query_new_handler@@YAP6AHI@ZXZ @1618 PRIVATE
-    ?set_new_handler@@YAP6AXXZP6AXXZ@Z @1619 PRIVATE
-    _abs64 @1621 PRIVATE
-    _byteswap_uint64 @1622 PRIVATE
-    _byteswap_ulong @1623 PRIVATE
-    _byteswap_ushort @1624 PRIVATE
-    _rotl64 @1638 PRIVATE
-    _rotr64 @1639 PRIVATE
+    ?_set_new_mode@@YAHH@Z @1648
+    ?_query_new_mode@@YAHXZ @1649
+    ?_set_new_handler@@YAP6AHI@ZP6AHI@Z@Z @1650
+    ?_query_new_handler@@YAP6AHI@ZXZ @1618
+    ?set_new_handler@@YAP6AXXZP6AXXZ@Z @1619
+    _abs64 @1621
+    _byteswap_uint64 @1622
+    _byteswap_ulong @1623
+    _byteswap_ushort @1624
+    _rotl64 @1638
+    _rotr64 @1639
 
 
 
 
-    _CountLeadingOnes @1625 PRIVATE
-    _CountLeadingOnes64 @1626 PRIVATE
-    _CountLeadingSigns @1627 PRIVATE
-    _CountLeadingSigns64 @1628 PRIVATE
-    _CountLeadingZeros @1629 PRIVATE
-    _CountLeadingZeros64 @1630 PRIVATE
-    _CountOneBits @1631 PRIVATE
-    _CountOneBits64 @1632 PRIVATE
-    _MulHigh @1636 PRIVATE
-    _MulUnsignedHigh @1637 PRIVATE
+    _CountLeadingOnes @1625
+    _CountLeadingOnes64 @1626
+    _CountLeadingSigns @1627
+    _CountLeadingSigns64 @1628
+    _CountLeadingZeros @1629
+    _CountLeadingZeros64 @1630
+    _CountOneBits @1631
+    _CountOneBits64 @1632
+    _MulHigh @1636
+    _MulUnsignedHigh @1637
 
 
-    _isnanf @1633 PRIVATE
-    _isunordered @1634 PRIVATE
-    _isunorderedf @1635 PRIVATE
-    ceilf @1640 PRIVATE
-    fabsf @1641 PRIVATE
-    floorf @1642 PRIVATE
-    fmodf @1643 PRIVATE
+    _isnanf @1633
+    _isunordered @1634
+    _isunorderedf @1635
+    ceilf @1640
+    fabsf @1641
+    floorf @1642
+    fmodf @1643
 
 
 
 
 
-    _XcptFilter @1645 PRIVATE
-    ?nothrow@std@@3Unothrow_t@1@B @1647 PRIVATE
+    _XcptFilter @1645
+    ?nothrow@std@@3Unothrow_t@1@B @1647
 
-    __report_gsfailure @1876 PRIVATE
-    __security_gen_cookie @1875 PRIVATE
+    __report_gsfailure @1876
+    __security_gen_cookie @1875
 
 ; @CESYSGEN IF CE_MODULES_FILESYS
 
-    __security_gen_cookie2=__security_gen_cookie_cgr @2696 PRIVATE
+    __security_gen_cookie2=__security_gen_cookie_cgr @2696
 
 ; @CESYSGEN ELSE
-    __security_gen_cookie2 @2696 PRIVATE
+    __security_gen_cookie2 @2696
 ; @CESYSGEN ENDIF
 
-    _set_invalid_parameter_handler @2697 PRIVATE
-    _get_invalid_parameter_handler @2698 PRIVATE
-    _invalid_parameter @2708 PRIVATE
+    _set_invalid_parameter_handler @2697
+    _get_invalid_parameter_handler @2698
+    _invalid_parameter @2708
 
 
 
